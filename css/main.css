@@ -1670,6 +1670,7 @@ pre .javascript .function {
   border-bottom: 1px solid #e50312;
 }
 .sidebar {
+  background: rgba(255,255,255,0);
   position: fixed;
   right: 0;
   top: 0;
@@ -1700,7 +1701,7 @@ pre .javascript .function {
 .sidebar-inner {
   position: relative;
   padding: 20px 10px;
-  color: #999;
+  color: #ff2a2a;
   text-align: center;
 }
 .site-overview-wrap {
@@ -1842,7 +1843,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c1d7ff;
+  background: #58a15e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2636,7 +2637,7 @@ pre .javascript .function {
   overflow: hidden;
   padding: 0;
   width: 240px;
-  background: #fff;
+  background: rgba(255,255,255,0);
   box-shadow: initial;
   border-radius: initial;
 }
@@ -2695,7 +2696,7 @@ pre .javascript .function {
   box-sizing: border-box;
   padding: 40px;
   width: 700px;
-  background: #fff;
+  background: rgba(255,255,255,0.3);
   min-height: 700px;
   box-shadow: initial;
   border-radius: initial;
@@ -2720,7 +2721,7 @@ pre .javascript .function {
   float: left;
   margin-top: 300px;
   width: 240px;
-  background: #f5f7f9;
+  background: rgba(255,255,255,0);
   box-shadow: none;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2877,7 +2878,7 @@ pre .javascript .function {
   box-sizing: border-box;
   width: 240px;
   color: #555;
-  background: #fff;
+  background: rgba(255,255,255,0);
   box-shadow: initial;
   border-radius: initial;
   opacity: 0;
@@ -3032,4 +3033,22 @@ pre {
 code,
 pre {
   border: 1px solid #d6d6d6;
+}
+body {
+  background: url("/images/background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.site-meta {
+  background: rgba(255,255,255,0);
+}
+.header-inner {
+  background: rgba(255,255,255,0);
+}
+.content {
+  border-radius: 10px;
+  margin-top: 60px;
+  background: rgba(255,255,255,0.1) none repeat scroll !important;
 }
